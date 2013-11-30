@@ -51,7 +51,7 @@
 		margin-bottom: 0px !important;
 	}
 
-	#header .navbar-search {
+	#header .navbarsearch {
 	  margin-left: 80px !important;
 	}
 
@@ -223,7 +223,7 @@
 		margin-bottom: 10px;
 	}
 
-    .metro-fix-view .metro-nav-block.long {
+    .school-fix-view .school-nav-block.long {
         height: 237px !important;
     }
 
@@ -253,7 +253,7 @@
 
     /*sidebar*/
 
-    .sidebar-scroll {
+    .sidebarscroll {
         height: auto;
         overflow: none;
         position: absolute;
@@ -322,7 +322,7 @@
     #theme-change {
         top: 70px !important;
     }
-    .metro-fix-view .metro-nav-block.long {
+    .school-fix-view .school-nav-block.long {
         height: 237px !important;
     }
 
@@ -348,7 +348,7 @@
     .login-wrap .double-size input {
         /*width: 90%;*/
     }
-    .login-wrap .metro {
+    .login-wrap .school {
         margin: 0 5px 5px 0;
     }
     /*-------*/
@@ -358,14 +358,14 @@
         width: 100%;
     }
 
-    .error-wrap.error-wrap-404 .metro.big {
+    .error-wrap.error-wrap-404 .school.big {
         width: 98% !important;
     }
-    .error-wrap.error-wrap-404 .metro {
+    .error-wrap.error-wrap-404 .school {
         width: 31.8%;
 
     }
-    .error-wrap.error-wrap-404 .metro.double {
+    .error-wrap.error-wrap-404 .school.double {
         height: 165px !important;
         width: 98% !important;
     }
@@ -381,7 +381,7 @@
         margin-bottom:0px !important;
     }
 
-    .metro-nav {
+    .school-nav {
         z-index: 99 !important;
     }
 }
@@ -410,7 +410,7 @@
     .login-wrap .double-size input {
         width: 90%;
     }
-    .login-wrap .metro {
+    .login-wrap .school {
         margin: 0 5px 5px 0;
     }
     /*-------*/
@@ -428,7 +428,7 @@
         display: block;
     }
     /*----sidebar----*/
-    .sidebar-scroll {
+    .sidebarscroll {
         height: auto;
         overflow: none;
         position: absolute;
@@ -473,11 +473,11 @@
         padding: 22px 35px !important;
     }
 
-    .navbar-inverse .brand, .navbar-inverse .nav > li > a{
+    .nav_bar_inv .brand, .nav_bar_inv .nav > li > a{
         color: #fff !important;
     }
 
-    .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    .nav_bar_inv .nav li.dropdown > .dropdown-toggle .caret {
         border-bottom-color: #FFF !important;
         border-top-color: #FFF !important;
     }
@@ -525,7 +525,7 @@
 	 	margin: 0px 0px 8px 0px !important;
 	}
 
-	#sidebar .navbar-search {
+	#sidebar .navbarsearch {
 		width: 100% !important;
 	}
 
@@ -545,7 +545,7 @@
 		margin-top: 0px !important;
 	}
 
-	.container-fluid {
+	.container_outline {
 	 	margin: 0px;
 	 	padding:5px;
 	}
@@ -732,29 +732,29 @@
         margin: 10px;
     }
 
-    /*metro*/
+    /*school*/
 
-    .metro-nav .metro-nav-block, .metro-nav .metro-nav-block.double {
+    .school-nav .school-nav-block, .school-nav .school-nav-block.double {
         width: 49%;
     }
 
-    .metro-nav .metro-nav-block:last-child {
+    .school-nav .school-nav-block:last-child {
         margin-right: 1%;
     }
-    .metro-nav .metro-nav-block a {
+    .school-nav .school-nav-block a {
         width: 94%;
     }
 
-    .metro-fix-view .metro-nav-block.long {
+    .school-fix-view .school-nav-block.long {
         height: 237px !important;
     }
 
-    .error-wrap .metro {
+    .error-wrap .school {
         width: 120px;
         height: 120px;
     }
 
-    .error-wrap .metro span {
+    .error-wrap .school span {
         font-size: 60px;
         padding-top: 50px;
         display: inline-block;
@@ -766,14 +766,14 @@
         width: 100%;
     }
 
-    .error-wrap.error-wrap-404 .metro.big {
+    .error-wrap.error-wrap-404 .school.big {
         width: 98% !important;
     }
-    .error-wrap.error-wrap-404 .metro {
+    .error-wrap.error-wrap-404 .school {
         width: 31.2%;
 
     }
-    .error-wrap.error-wrap-404 .metro.double {
+    .error-wrap.error-wrap-404 .school.double {
         height: 165px !important;
         width: 98% !important;
     }
@@ -784,7 +784,7 @@
         margin-bottom:0px !important;
     }
 
-    .metro-nav {
+    .school-nav {
         z-index: 99 !important;
     }
 }
@@ -793,18 +793,18 @@
 /* Landscape phones and down */
 @media (max-width: 430px) {
 
-    .error-wrap .metro {
+    .error-wrap .school {
         width: 165px;
         height: 165px;
     }
 
-    .error-wrap .metro span {
+    .error-wrap .school span {
         font-size: 70px;
         padding-top: 70px;
         display: inline-block;
     }
 
-    .sidebar-scroll {
+    .sidebarscroll {
         height: auto;
         overflow: none;
         position: absolute;
@@ -812,7 +812,7 @@
         z-index: none;
     }
 
-    #header.navbar-inverse .navbar-inner {
+    #header.nav_bar_inv .navbar-inner {
         height: 185px !important;
     }
 
@@ -835,7 +835,7 @@
     .login-wrap .double-size input {
         width: 80%;
     }
-    .login-wrap .metro {
+    .login-wrap .school {
         margin: 0 5px 5px 0;
     }
     /*-------*/
@@ -909,35 +909,35 @@
 		width: 100%;
 		padding: 0px !important;
 	}
-    #header.navbar-inverse .navbar-inner {
+    #header.nav_bar_inv .navbar-inner {
         height: 68px !important;
     }
-    .navbar-inverse .brand, .navbar-inverse .nav > li > a{
+    .nav_bar_inv .brand, .nav_bar_inv .nav > li > a{
         color: #fff !important;
     }
 
-    .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    .nav_bar_inv .nav li.dropdown > .dropdown-toggle .caret {
         border-bottom-color: #FFF !important;
         border-top-color: #FFF !important;
     }
-    /*metro*/
+    /*school*/
 
-    .metro-nav .metro-nav-block, .metro-nav .metro-nav-block.double {
+    .school-nav .school-nav-block, .school-nav .school-nav-block.double {
         width: 49%;
     }
 
-    .metro-nav .metro-nav-block:last-child {
+    .school-nav .school-nav-block:last-child {
         margin-right: 1%;
     }
-    .metro-nav .metro-nav-block a {
+    .school-nav .school-nav-block a {
         width: 94%;
     }
 
-    .metro-fix-view .metro-nav-block {
+    .school-fix-view .school-nav-block {
         width: 124px !important;
     }
 
-    .metro-fix-view .metro-nav-block a {
+    .school-fix-view .school-nav-block a {
         width: 84% !important;
     }
     /*error page*/
@@ -946,10 +946,10 @@
         width: 98%;
     }
 
-    .error-wrap.error-wrap-404 .metro {
+    .error-wrap.error-wrap-404 .school {
         width: 31.2%;
     }
-    .error-wrap.error-wrap-404 .metro.double {
+    .error-wrap.error-wrap-404 .school.double {
         height: 120px !important;
         width: 98% !important;
     }
@@ -960,7 +960,7 @@
         margin-bottom:0px !important;
     }
 
-    .metro-nav {
+    .school-nav {
         z-index: 99 !important;
     }
 }
@@ -968,7 +968,7 @@
 /* Landscape phones and down */
 @media (max-width: 385px) {
 
-    .sidebar-scroll {
+    .sidebarscroll {
         height: auto;
         overflow: none;
         position: absolute;
@@ -995,7 +995,7 @@
     .login-wrap .double-size input {
         width: 80%;
     }
-    .login-wrap .metro {
+    .login-wrap .school {
         margin: 0 5px 5px 0;
     }
     /*-------*/
@@ -1087,32 +1087,32 @@
 		margin-top: 0px !important;
 		height: 84px !important;
 	}
-    .navbar-inverse .brand, .navbar-inverse .nav > li > a{
+    .nav_bar_inv .brand, .nav_bar_inv .nav > li > a{
         color: #242424 !important;
     }
 
-    .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    .nav_bar_inv .nav li.dropdown > .dropdown-toggle .caret {
         border-bottom-color: #FFF !important;
         border-top-color: #FFF !important;
     }
-    /*metro*/
+    /*school*/
 
-    .metro-nav .metro-nav-block, .metro-nav .metro-nav-block.double {
+    .school-nav .school-nav-block, .school-nav .school-nav-block.double {
         width: 49%;
     }
 
-    .metro-nav .metro-nav-block:last-child {
+    .school-nav .school-nav-block:last-child {
         margin-right: 1%;
     }
-    .metro-nav .metro-nav-block a {
+    .school-nav .school-nav-block a {
         width: 94%;
     }
 
-    .metro-fix-view .metro-nav-block {
+    .school-fix-view .school-nav-block {
         width: 124px !important;
     }
 
-    .metro-fix-view .metro-nav-block a {
+    .school-fix-view .school-nav-block a {
         width: 84% !important;
     }
     /*error page*/
@@ -1121,11 +1121,11 @@
         width: 100%;
     }
 
-    .error-wrap.error-wrap-404 .metro.big, .error-wrap.error-wrap-404 .metro.double, .error-wrap.error-wrap-404 .metro {
+    .error-wrap.error-wrap-404 .school.big, .error-wrap.error-wrap-404 .school.double, .error-wrap.error-wrap-404 .school {
         width: 98%;
     }
 
-    .error-wrap.error-wrap-404 .metro.double {
+    .error-wrap.error-wrap-404 .school.double {
         height: 165px !important;
     }
 
@@ -1137,7 +1137,7 @@
         margin-bottom:0px !important;
     }
 
-    .metro-nav {
+    .school-nav {
         z-index: 99 !important;
     }
 } 
@@ -1145,7 +1145,7 @@
 /* Landscape phones and down */
 @media (max-width: 320px) {
 
-    .sidebar-scroll {
+    .sidebarscroll {
         height: auto;
         overflow: none;
         position: absolute;
@@ -1218,7 +1218,7 @@
     .login-wrap .double-size input {
         width: 80%;
     }
-    .login-wrap .metro {
+    .login-wrap .school {
         margin: 0 5px 5px 0;
     }
     /*-------*/
@@ -1246,33 +1246,33 @@
         padding: 22px 22px !important;
     }
 
-    .navbar-inverse .brand, .navbar-inverse .nav > li > a{
+    .nav_bar_inv .brand, .nav_bar_inv .nav > li > a{
         color: #242424 !important;
     }
 
-    .navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+    .nav_bar_inv .nav li.dropdown > .dropdown-toggle .caret {
         border-bottom-color: #FFF !important;
         border-top-color: #FFF !important;
     }
-    /*metro*/
+    /*school*/
 
-    .metro-nav .metro-nav-block, .metro-nav .metro-nav-block.double {
+    .school-nav .school-nav-block, .school-nav .school-nav-block.double {
         width: 49%;
     }
 
-    .metro-nav .metro-nav-block:last-child {
+    .school-nav .school-nav-block:last-child {
         margin-right: 1%;
     }
 
-    .metro-nav .metro-nav-block a {
+    .school-nav .school-nav-block a {
         width: 94%;
     }
 
-    .metro-fix-view .metro-nav-block {
+    .school-fix-view .school-nav-block {
         width: 124px !important;
     }
 
-    .metro-fix-view .metro-nav-block a {
+    .school-fix-view .school-nav-block a {
         width: 84% !important;
     }
 
@@ -1282,7 +1282,7 @@
         width: 100%;
     }
 
-    .error-wrap.error-wrap-404 .metro.big, .error-wrap.error-wrap-404 .metro.double, .error-wrap.error-wrap-404 .metro {
+    .error-wrap.error-wrap-404 .school.big, .error-wrap.error-wrap-404 .school.double, .error-wrap.error-wrap-404 .school {
         width: 98%;
     }
 
@@ -1300,7 +1300,7 @@
         margin-bottom:0px !important;
     }
 
-    .metro-nav {
+    .school-nav {
         z-index: 99 !important;
     }
 }

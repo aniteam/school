@@ -1,5 +1,5 @@
 /*
-Template Name: Metro Lab Dashboard build with Bootstrap v2.3.1
+Template Name: school Lab Dashboard build with Bootstrap v2.3.1
 Template Version: 1.1
 Author: Mosaddek
 Website: http://thevectorlab.net/
@@ -456,7 +456,7 @@ a,a:focus, a:hover, a:active {
     padding: 10px;
 }
 
-.navbar-inner, .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+.navbar-inner, .nav_fix_top .navbar-inner, .navbar-static-top .navbar-inner {
     box-shadow: none;
 }
 
@@ -465,7 +465,7 @@ a,a:focus, a:hover, a:active {
     margin-right: 0px !important;
 }
 
-#header .navbar-inverse .brand, .navbar-inverse .nav > li > a{
+#header .nav_bar_inv .brand, .nav_bar_inv .nav > li > a{
     color: #fff;
 }
 
@@ -483,7 +483,7 @@ a,a:focus, a:hover, a:active {
     display: inline-block !important;
 }
 
-#header.navbar-inverse .btn-navbar {
+#header.nav_bar_inv .btn-navbar {
     background-image: none;
     margin-top: 10px;
     color: white;
@@ -493,7 +493,7 @@ a,a:focus, a:hover, a:active {
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
-#header.navbar-inverse .btn-navbar:hover {
+#header.nav_bar_inv .btn-navbar:hover {
     background-color: #caced1;
 }
 
@@ -511,16 +511,16 @@ a,a:focus, a:hover, a:active {
     border-radius: 0;
 }
 
-#header.navbar-inverse .navbar-inner {
+#header.nav_bar_inv .navbar-inner {
     height: 60px;
     border:none !important;
 }
 
-#header.navbar-inverse .divider-vertical {
+#header.nav_bar_inv .divider-vertical {
     height: 40px;
 }
 
-#header .navbar-search {
+#header .navbarsearch {
     margin-left: 110px;
 }
 
@@ -536,7 +536,7 @@ a,a:focus, a:hover, a:active {
     margin-top: 12px !important;
 }
 
-.navbar-inverse .navbar-search .search-query {
+.nav_bar_inv .navbarsearch .search-query {
     background-color: #FFFFFF;
     border: 0 none;
     color: #333333;
@@ -546,7 +546,7 @@ a,a:focus, a:hover, a:active {
 
 }
 
-.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+.nav_bar_inv .nav li.dropdown > .dropdown-toggle .caret {
     border-bottom-color: #FFFFFF;
     border-top-color: #FFFFFF;
 }
@@ -610,7 +610,7 @@ a,a:focus, a:hover, a:active {
     background: #404040;
 }
 
-.sidebar-scroll {
+.sidebarscroll {
     position: fixed;
     overflow-y: scroll;
     height: 100%;
@@ -622,7 +622,7 @@ a,a:focus, a:hover, a:active {
     margin-bottom:180px !important;
 }
 
-#sidebar .navbar-search {
+#sidebar .navbarsearch {
     border: 0px;
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
@@ -1553,7 +1553,7 @@ form legend {
     height:300px
 }
 
-.metro_tips {
+.school_tips {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 5px 10px;
@@ -1684,8 +1684,8 @@ ul.item-list .pull-right span {
     text-align: center;
 }
 
-/* metro dashboard states */
-.metro-nav {
+/* school dashboard states */
+.school-nav {
     font-family: 'MyriadPro-Light';
     position: relative;
     z-index: 101;
@@ -1693,37 +1693,37 @@ ul.item-list .pull-right span {
 
 
 
-.metro-nav .navbagblue {
+.school-nav .navbagblue {
     background: #0DAED3;
 }
 
-.metro-nav .navbaggrey {
+.school-nav .navbaggrey {
     background:  #77808a;
 }
 
-.metro-nav .nav-deep-gray {
+.school-nav .nav-deep-gray {
     background:  #434343;
 }
 
-.metro-fix-view .metro-nav-block.double {
+.school-fix-view .school-nav-block.double {
     width: 251px !important;
 }
 
-.metro-fix-view .metro-nav-block.long {
+.school-fix-view .school-nav-block.long {
     width: 251px !important;
     height: 235px !important;
 }
 
-.metro-fix-view .metro-nav-block.long .value {
+.school-fix-view .school-nav-block.long .value {
     padding-top: 30px !important;
     display: inline-block;
 }
 
-.metro-fix-view .metro-nav-block.long .value i {
+.school-fix-view .school-nav-block.long .value i {
     font-size: 90px;
 }
 
-.metro-fix-view .metro-nav-block {
+.school-fix-view .school-nav-block {
     color: white;
     cursor: pointer;
     display: block;
@@ -1741,11 +1741,11 @@ ul.item-list .pull-right span {
 }
 
 
-.metro-nav .metro-nav-block.double {
+.school-nav .school-nav-block.double {
     width: 28%;
 }
 
-.metro-nav .metro-nav-block {
+.school-nav .school-nav-block {
     color: white;
     cursor: pointer;
     display: block;
@@ -1762,17 +1762,17 @@ ul.item-list .pull-right span {
     z-index: 1;
 }
 
-.metro-nav .metro-nav-block i {
+.school-nav .school-nav-block i {
     font-size: 50px;
     margin-top: 20px;
     display: inline-block;
 }
 
-.metro-nav .metro-nav-block:last-child {
+.school-nav .school-nav-block:last-child {
     margin-right: 0;
 }
 
-.metro-nav .metro-nav-block a {
+.school-nav .school-nav-block a {
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -1787,21 +1787,21 @@ ul.item-list .pull-right span {
     text-decoration: none;
 }
 
-.metro-nav .metro-nav-block a i {
+.school-nav .school-nav-block a i {
     transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     -webkit-transition: all 0.5s ease-in-out 0s;
     -o-transition: all 0.5s ease-in-out 0s;
 }
 
-.metro-nav .metro-nav-block a .info {
+.school-nav .school-nav-block a .info {
     transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;
     -o-transition: all 0.4s ease-in-out 0s;
 }
 
-.metro-nav .metro-nav-block a:hover i{
+.school-nav .school-nav-block a:hover i{
     transform:rotate(83deg);
     -moz-transform:rotate(83deg);
     -webkit-transform:rotate(83deg);
@@ -1810,14 +1810,14 @@ ul.item-list .pull-right span {
     opacity: 0.2;
 }
 
-.metro-nav .metro-nav-block.long a:hover i{
+.school-nav .school-nav-block.long a:hover i{
 
     font-size: 200px;
 }
-.metro-nav .metro-nav-block.long a {
+.school-nav .school-nav-block.long a {
     height: 96%;
 }
-.metro-nav .metro-nav-block a:hover .info {
+.school-nav .school-nav-block a:hover .info {
     transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
@@ -1826,22 +1826,22 @@ ul.item-list .pull-right span {
     opacity: 0.6;
 }
 
-.metro-nav .metro-nav-block:hover {
+.school-nav .school-nav-block:hover {
     opacity: 0.8;
 }
 
-.metro-nav .metro-nav-block.double a {
+.school-nav .school-nav-block.double a {
     width: 94%;
 }
 
-.metro-nav .metro-nav-block .info {
+.school-nav .school-nav-block .info {
     font-size: 24px;
     position: absolute;
     right: 10px;
     top: 45px;
 }
 
-.metro-nav .metro-nav-block .status, .metro-nav .metro-nav-block .tile-status {
+.school-nav .school-nav-block .status, .school-nav .school-nav-block .tile-status {
     background-color: transparent;
     bottom: -10px;
     font-size: 14px;
@@ -2277,7 +2277,7 @@ ul.icons {
     font-family: "MyriadPro-Light";
 }
 
-.login-wrap .metro {
+.login-wrap .school {
     height: 150px;
     float: left;
     margin: 0 10px 10px 0;
@@ -2378,7 +2378,7 @@ body.lock {
     font-family: "MyriadPro-Light";
 }
 
-.lock-wrap .metro {
+.lock-wrap .school {
     height: 165px;
     float: left;
     margin: 0 10px 10px 0;
@@ -3444,7 +3444,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
     text-align: center;
 }
 
-.error-wrap .metro.big {
+.error-wrap .school.big {
     float: left;
     width: 340px;
     height: 340px;
@@ -3452,7 +3452,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
     font-family: "MyriadPro-Light";
 }
 
-.error-wrap.error-wrap-404 .metro.double {
+.error-wrap.error-wrap-404 .school.double {
     float: left;
     width: 340px;
     height: 165px;
@@ -3468,16 +3468,16 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
     display: inline-block;
 }
 
-.error-wrap .metro.double .page-txt {
+.error-wrap .school.double .page-txt {
     font-family: "MyriadPro-Light";
     font-size: 30px;
 }
 
-.error-wrap.error-wrap-404 .metro {
+.error-wrap.error-wrap-404 .school {
     float: left;
 }
 
-.error-wrap.error-wrap-404 .metro.big span {
+.error-wrap.error-wrap-404 .school.big span {
     padding-top: 160px;
 }
 
@@ -3517,14 +3517,14 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
     font-size: 25px;
 }
 
-.error-wrap .metro {
+.error-wrap .school {
     width: 165px;
     height: 165px;
     display: inline-block;
     margin: 0 10px 10px 0;
 }
 
-.error-wrap .metro span {
+.error-wrap .school span {
     font-size: 70px;
     padding-top: 70px;
     display: inline-block;
@@ -3677,7 +3677,7 @@ ul.faq-list li a:hover, ul.faq-list li a.active{
 
 /*gallery*/
 
-.metro-gallery {
+.school-gallery {
     position: relative;
 }
 

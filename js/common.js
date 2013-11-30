@@ -20,9 +20,9 @@ var Script = function () {
         var o = ($(this).offset());
         diff = 200 - o.top;
         if(diff>0)
-            $(".sidebar-scroll").scrollTo("-="+Math.abs(diff),500);
+            $(".sidebarscroll").scrollTo("-="+Math.abs(diff),500);
         else
-            $(".sidebar-scroll").scrollTo("+="+Math.abs(diff),500);
+            $(".sidebarscroll").scrollTo("+="+Math.abs(diff),500);
     });
 
 //    sidebar toggle
@@ -50,7 +50,7 @@ var Script = function () {
     });
 
 // custom scrollbar
-    $(".sidebar-scroll").niceScroll({styler:"fb",cursorcolor:"#4A8BC2", cursorwidth: '5', cursorborderradius: '0px', background: '#404040', cursorborder: ''});
+    $(".sidebarscroll").niceScroll({styler:"fb",cursorcolor:"#4A8BC2", cursorwidth: '5', cursorborderradius: '0px', background: '#404040', cursorborder: ''});
 
     $(".portlet-scroll-1").niceScroll({styler:"fb",cursorcolor:"#4A8BC2", cursorwidth: '5', cursorborderradius: '0px', background: '#404040', cursorborder: ''});
 
