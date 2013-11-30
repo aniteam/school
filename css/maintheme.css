@@ -687,7 +687,7 @@ a,a:focus, a:hover, a:active {
 }
 
 #sidebar > ul > li a i {
-    width: 25px;
+    width: 0px;
 }
 
 #sidebar > ul > li.active > a{
